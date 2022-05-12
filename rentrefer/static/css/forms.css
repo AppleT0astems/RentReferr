@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.log-form {
+  margin-top: 55px;
+  padding: 80px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #dfe0df;
+}
+
+.log-wrap {
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.form-control {
+  height: 50px;
+}
+
+#review {
+  height: 200px;
+}
+
+.reg-form {
+  margin-top: 25px;
+  margin-bottom: 130px;
+  padding: 80px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #dfe0df;
+}
+
+.rate-form {
+  margin-top: 25px;
+  margin-bottom: 130px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #F7F7F7;
+}
+
+.rate-wrap {
+  position: relative;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.input-group {
+  padding: 0 250px 0 250px;
+}
+
+@media screen and (max-width: 500px) {
+  .log-wrap { width: 350px; }
+}

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  margin: 50px 300px 150px 300px;
+}
+
+.icon-star {
+  width: 48px;
+}
+
+.icon {
+  width: 42px;
+}
+
+p.score {
+  font-size: 32px;
+}
+
+.icon-score {
+  width: 32px;
+}
+
+@media screen and (max-width: 500px) {
+  #main { margin: 30px 20px 100px 20px; }
+  .icon { width: 38px; }
+}
+
+@media screen and (min-width: 501px) and (max-width: 814px) {
+  #main { margin: 30px 20px 100px 20px; }
+}

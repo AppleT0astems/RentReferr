@@ -1,0 +1,28 @@
+.navbar-brand> img {
+  height:40px;
+  width: auto;
+  max-height: 100%;
+  margin: 1px;
+}
+
+#logBtn {
+  color:teal;
+  font-family: inherit;
+  font-size: 18px; 
+  border: 1px
+}
+
+#footer {
+  opacity: 0.6;
+  background-color: #ffffff
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  font-family: Open-sans;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: black;
+}
